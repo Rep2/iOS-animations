@@ -10,12 +10,18 @@
 		706774752AB676DC0D69DFC8 /* Pods_iOS_animations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8463E40A478A7C1314E00F4D /* Pods_iOS_animations.framework */; };
 		C7362D8D212610D27B77B880 /* Pods_iOS_animationsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1902FF6EA48931739995FEF6 /* Pods_iOS_animationsUITests.framework */; };
 		EAAD4B9A624BBE2B7005A920 /* Pods_iOS_animationsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BE3443AD739EDAFC1643A6 /* Pods_iOS_animationsTests.framework */; };
+		F67819E81F3B55DF00F2D731 /* TranslationAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67819E71F3B55DF00F2D731 /* TranslationAnimationView.swift */; };
+		F67819EA1F3B571E00F2D731 /* FadeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67819E91F3B571E00F2D731 /* FadeAnimationView.swift */; };
+		F67819EC1F3B5A6E00F2D731 /* RotateAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67819EB1F3B5A6E00F2D731 /* RotateAnimationView.swift */; };
 		F6A380961F3B22C60080BB87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A380951F3B22C60080BB87 /* AppDelegate.swift */; };
 		F6A380981F3B22C60080BB87 /* BasicLayerAnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A380971F3B22C60080BB87 /* BasicLayerAnimationsViewController.swift */; };
 		F6A3809D1F3B22C60080BB87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A3809C1F3B22C60080BB87 /* Assets.xcassets */; };
 		F6A380A01F3B22C60080BB87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A3809E1F3B22C60080BB87 /* LaunchScreen.storyboard */; };
 		F6A380AB1F3B22C60080BB87 /* iOS_animationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A380AA1F3B22C60080BB87 /* iOS_animationsTests.swift */; };
 		F6A380B61F3B22C60080BB87 /* iOS_animationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A380B51F3B22C60080BB87 /* iOS_animationsUITests.swift */; };
+		F6A4A03B1F3B388000D58027 /* BasicLayerAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A4A03A1F3B388000D58027 /* BasicLayerAnimationsView.swift */; };
+		F6A4A03D1F3B39DD00D58027 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A4A03C1F3B39DD00D58027 /* SnapKit.framework */; };
+		F6A4A03E1F3B39DD00D58027 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6A4A03C1F3B39DD00D58027 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F6A4A03F1F3B39DD00D58027 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F6A4A03E1F3B39DD00D58027 /* SnapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1902FF6EA48931739995FEF6 /* Pods_iOS_animationsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_animationsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0AA1BABC00F5B10A8B999B /* Pods-iOS animations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS animations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS animations/Pods-iOS animations.debug.xcconfig"; sourceTree = "<group>"; };
@@ -45,6 +65,9 @@
 		B6BF3F04D7D2C0E2B1DAA1FB /* Pods-iOS animationsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS animationsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS animationsTests/Pods-iOS animationsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC457BD180992BB3B0A79172 /* Pods-iOS animationsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS animationsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS animationsUITests/Pods-iOS animationsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5F99BE1142B6678F83164F6 /* Pods-iOS animations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS animations.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS animations/Pods-iOS animations.release.xcconfig"; sourceTree = "<group>"; };
+		F67819E71F3B55DF00F2D731 /* TranslationAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TranslationAnimationView.swift; path = BasicLayerAnimations/TranslationAnimationView.swift; sourceTree = "<group>"; };
+		F67819E91F3B571E00F2D731 /* FadeAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FadeAnimationView.swift; path = BasicLayerAnimations/FadeAnimationView.swift; sourceTree = "<group>"; };
+		F67819EB1F3B5A6E00F2D731 /* RotateAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RotateAnimationView.swift; path = BasicLayerAnimations/RotateAnimationView.swift; sourceTree = "<group>"; };
 		F6A380921F3B22C60080BB87 /* iOS animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A380951F3B22C60080BB87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6A380971F3B22C60080BB87 /* BasicLayerAnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicLayerAnimationsViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +80,8 @@
 		F6A380B11F3B22C60080BB87 /* iOS animationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS animationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A380B51F3B22C60080BB87 /* iOS_animationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_animationsUITests.swift; sourceTree = "<group>"; };
 		F6A380B71F3B22C60080BB87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A4A03A1F3B388000D58027 /* BasicLayerAnimationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BasicLayerAnimationsView.swift; path = BasicLayerAnimations/BasicLayerAnimationsView.swift; sourceTree = "<group>"; };
+		F6A4A03C1F3B39DD00D58027 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				706774752AB676DC0D69DFC8 /* Pods_iOS_animations.framework in Frameworks */,
+				F6A4A03D1F3B39DD00D58027 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +139,7 @@
 		F6A380891F3B22C60080BB87 = {
 			isa = PBXGroup;
 			children = (
+				F6A4A03C1F3B39DD00D58027 /* SnapKit.framework */,
 				F6A380941F3B22C60080BB87 /* iOS animations */,
 				F6A380A91F3B22C60080BB87 /* iOS animationsTests */,
 				F6A380B41F3B22C60080BB87 /* iOS animationsUITests */,
@@ -135,6 +162,7 @@
 		F6A380941F3B22C60080BB87 /* iOS animations */ = {
 			isa = PBXGroup;
 			children = (
+				F6A4A0391F3B386100D58027 /* BasicLayerAnimations */,
 				F6A380951F3B22C60080BB87 /* AppDelegate.swift */,
 				F6A380971F3B22C60080BB87 /* BasicLayerAnimationsViewController.swift */,
 				F6A3809C1F3B22C60080BB87 /* Assets.xcassets */,
@@ -162,6 +190,17 @@
 			path = "iOS animationsUITests";
 			sourceTree = "<group>";
 		};
+		F6A4A0391F3B386100D58027 /* BasicLayerAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				F6A4A03A1F3B388000D58027 /* BasicLayerAnimationsView.swift */,
+				F67819E71F3B55DF00F2D731 /* TranslationAnimationView.swift */,
+				F67819E91F3B571E00F2D731 /* FadeAnimationView.swift */,
+				F67819EB1F3B5A6E00F2D731 /* RotateAnimationView.swift */,
+			);
+			name = BasicLayerAnimations;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,6 +216,7 @@
 				120A7A773D18994EDBF91C3F /* [CP] Embed Pods Frameworks */,
 				032CF9EE5A7A7AD5B7DBDDA1 /* [CP] Copy Pods Resources */,
 				F60DF3A71F3B34800093A814 /* Carthage */,
+				F6A4A03F1F3B39DD00D58027 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -475,8 +515,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F67819EC1F3B5A6E00F2D731 /* RotateAnimationView.swift in Sources */,
 				F6A380981F3B22C60080BB87 /* BasicLayerAnimationsViewController.swift in Sources */,
+				F67819EA1F3B571E00F2D731 /* FadeAnimationView.swift in Sources */,
 				F6A380961F3B22C60080BB87 /* AppDelegate.swift in Sources */,
+				F6A4A03B1F3B388000D58027 /* BasicLayerAnimationsView.swift in Sources */,
+				F67819E81F3B55DF00F2D731 /* TranslationAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +667,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = MDX989Y6D8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "iOS animations/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -638,6 +686,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MDX989Y6D8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "iOS animations/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
