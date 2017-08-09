@@ -1,11 +1,11 @@
 import UIKit
 import SnapKit
 
-class FadeAnimationView: BasicLayerAnimationsView {
+class ScaleAnimationView: BasicLayerAnimationsView {
     override init(frame: CGRect) {
         super.init(frame: frame)
 
-        titleLabel.text = "Fade"
+        titleLabel.text = "Scale"
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -14,7 +14,7 @@ class FadeAnimationView: BasicLayerAnimationsView {
 
     func startAnimation() {
         UIView.animate(withDuration: 3, delay: 0, options: [.repeat, .autoreverse], animations: {
-            self.logoImageView.alpha = 0
+            self.logoImageView.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
         })
     }
 }

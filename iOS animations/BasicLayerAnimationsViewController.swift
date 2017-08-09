@@ -14,6 +14,7 @@ class BasicLayerAnimationsViewController: UIViewController {
     lazy var scrollView: UIScrollView = {
         let scrollView = UIScrollView(frame: CGRect.zero)
         scrollView.backgroundColor = .white
+        scrollView.contentSize = CGSize(width: self.view.bounds.width, height: 1000)
 
         return scrollView
     }()
@@ -30,6 +31,14 @@ class BasicLayerAnimationsViewController: UIViewController {
         return RotateAnimationView(frame: CGRect(x: 0, y: 400, width: self.view.bounds.width, height: 200))
     }()
 
+    lazy var scaleAnimationView: ScaleAnimationView = {
+        return ScaleAnimationView(frame: CGRect(x: 0, y: 600, width: self.view.bounds.width, height: 200))
+    }()
+
+    lazy var combinedSimpleAnimationsView: CombinedSimpleAnimationsView = {
+        return CombinedSimpleAnimationsView(frame: CGRect(x: 0, y: 800, width: self.view.bounds.width, height: 200))
+    }()
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -44,6 +53,8 @@ class BasicLayerAnimationsViewController: UIViewController {
         transitionAnimationView.startAnimation()
         fadeAnimationView.startAnimation()
         rotateAnimationView.startAnimation()
+        scaleAnimationView.startAnimation()
+        combinedSimpleAnimationsView.startAnimation()
     }
 
     private func setupViewController() {
@@ -62,5 +73,7 @@ class BasicLayerAnimationsViewController: UIViewController {
         scrollView.addSubview(transitionAnimationView)
         scrollView.addSubview(fadeAnimationView)
         scrollView.addSubview(rotateAnimationView)
+        scrollView.addSubview(scaleAnimationView)
+        scrollView.addSubview(combinedSimpleAnimationsView)
     }
 }

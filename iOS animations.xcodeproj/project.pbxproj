@@ -13,6 +13,8 @@
 		F67819E81F3B55DF00F2D731 /* TranslationAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67819E71F3B55DF00F2D731 /* TranslationAnimationView.swift */; };
 		F67819EA1F3B571E00F2D731 /* FadeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67819E91F3B571E00F2D731 /* FadeAnimationView.swift */; };
 		F67819EC1F3B5A6E00F2D731 /* RotateAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67819EB1F3B5A6E00F2D731 /* RotateAnimationView.swift */; };
+		F67819EE1F3B6A8E00F2D731 /* ScaleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67819ED1F3B6A8E00F2D731 /* ScaleAnimationView.swift */; };
+		F67819F01F3B6B7E00F2D731 /* CombinedSimpleAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67819EF1F3B6B7E00F2D731 /* CombinedSimpleAnimationsView.swift */; };
 		F6A380961F3B22C60080BB87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A380951F3B22C60080BB87 /* AppDelegate.swift */; };
 		F6A380981F3B22C60080BB87 /* BasicLayerAnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A380971F3B22C60080BB87 /* BasicLayerAnimationsViewController.swift */; };
 		F6A3809D1F3B22C60080BB87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A3809C1F3B22C60080BB87 /* Assets.xcassets */; };
@@ -68,6 +70,8 @@
 		F67819E71F3B55DF00F2D731 /* TranslationAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TranslationAnimationView.swift; path = BasicLayerAnimations/TranslationAnimationView.swift; sourceTree = "<group>"; };
 		F67819E91F3B571E00F2D731 /* FadeAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FadeAnimationView.swift; path = BasicLayerAnimations/FadeAnimationView.swift; sourceTree = "<group>"; };
 		F67819EB1F3B5A6E00F2D731 /* RotateAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RotateAnimationView.swift; path = BasicLayerAnimations/RotateAnimationView.swift; sourceTree = "<group>"; };
+		F67819ED1F3B6A8E00F2D731 /* ScaleAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScaleAnimationView.swift; path = BasicLayerAnimations/ScaleAnimationView.swift; sourceTree = "<group>"; };
+		F67819EF1F3B6B7E00F2D731 /* CombinedSimpleAnimationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CombinedSimpleAnimationsView.swift; path = BasicLayerAnimations/CombinedSimpleAnimationsView.swift; sourceTree = "<group>"; };
 		F6A380921F3B22C60080BB87 /* iOS animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A380951F3B22C60080BB87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6A380971F3B22C60080BB87 /* BasicLayerAnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicLayerAnimationsViewController.swift; sourceTree = "<group>"; };
@@ -197,6 +201,8 @@
 				F67819E71F3B55DF00F2D731 /* TranslationAnimationView.swift */,
 				F67819E91F3B571E00F2D731 /* FadeAnimationView.swift */,
 				F67819EB1F3B5A6E00F2D731 /* RotateAnimationView.swift */,
+				F67819ED1F3B6A8E00F2D731 /* ScaleAnimationView.swift */,
+				F67819EF1F3B6B7E00F2D731 /* CombinedSimpleAnimationsView.swift */,
 			);
 			name = BasicLayerAnimations;
 			sourceTree = "<group>";
@@ -517,8 +523,10 @@
 			files = (
 				F67819EC1F3B5A6E00F2D731 /* RotateAnimationView.swift in Sources */,
 				F6A380981F3B22C60080BB87 /* BasicLayerAnimationsViewController.swift in Sources */,
+				F67819EE1F3B6A8E00F2D731 /* ScaleAnimationView.swift in Sources */,
 				F67819EA1F3B571E00F2D731 /* FadeAnimationView.swift in Sources */,
 				F6A380961F3B22C60080BB87 /* AppDelegate.swift in Sources */,
+				F67819F01F3B6B7E00F2D731 /* CombinedSimpleAnimationsView.swift in Sources */,
 				F6A4A03B1F3B388000D58027 /* BasicLayerAnimationsView.swift in Sources */,
 				F67819E81F3B55DF00F2D731 /* TranslationAnimationView.swift in Sources */,
 			);

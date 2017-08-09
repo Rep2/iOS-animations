@@ -22,7 +22,7 @@ class BasicLayerAnimationsView: UIView {
 
         logoImageView.snp.makeConstraints { make in
             make.top.equalTo(titleLabel.snp.bottom).offset(16)
-            make.left.equalTo(self.snp.left).offset(0)
+            make.left.equalTo(self.snp.left).offset(self.bounds.width/2 - self.logoImageView.bounds.width/2)
             make.size.equalTo(CGSize(width: 100, height: 100))
         }
     }

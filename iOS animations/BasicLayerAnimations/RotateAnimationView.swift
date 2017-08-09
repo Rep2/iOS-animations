@@ -6,10 +6,6 @@ class RotateAnimationView: BasicLayerAnimationsView {
         super.init(frame: frame)
 
         titleLabel.text = "Rotate"
-
-        logoImageView.snp.updateConstraints { make in
-            make.left.equalTo(self.snp.left).offset(self.bounds.width/2 - self.logoImageView.bounds.width/2)
-        }
     }
 
     required init?(coder aDecoder: NSCoder) {
